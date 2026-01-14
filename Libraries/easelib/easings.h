@@ -6,7 +6,7 @@
  *      ██    ██ ██▄██╺╺
  *      ██▄▄▄ ██ ██▄█▀──
  *
- *  Version: 1.0
+ *  Version: 1.1
  *
  *  A simple yet powerful library designed to produce smooth movements.
  *
@@ -61,9 +61,11 @@ float ease(float time, int ease_in, int ease_out){
 
 
 		if (ease_in == LINEAR) {
-			eased = t/2.0;
+			eased = t;
+			if(ease_out == NONE) return eased;
+			else return eased * 0.5;
 
-		}else if(ease_in != NONE){
+		}if(ease_in != NONE){
 			switch(ease_in){
 
 				case SINE: eased = 1.0 - cos((t * pi) / 2.0); break;
@@ -94,8 +96,10 @@ float ease(float time, int ease_in, int ease_out){
 
 		if (ease_out == LINEAR) {
 			eased = t;
+			if(ease_in == NONE) return eased;
+			else return 0.5 + eased * 0.5;
 
-		}else if(ease_out != NONE){
+		}if(ease_out != NONE){
 			float t_inv=(1.0-t);
 
 			switch(ease_out){
@@ -118,6 +122,8 @@ float ease(float time, int ease_in, int ease_out){
 		}
 
 	}
+
+	if(ease_in==NONE && ease_out==NONE) return round(t);
 
 }
 
