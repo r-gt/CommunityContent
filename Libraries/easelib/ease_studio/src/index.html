@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+
+	<title>Ease-Studio!</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="favicon.png">
+</head>
+
+<body>
+
+
+
+
+	<div id="project_panel" style="display: none;">
+		<div id="half_background" onclick="hide_all()"></div>
+
+		<div class="project_box">
+
+			timer variable: </br><input type="text" id="time_variable" value="t" ></br></br>
+			
+			speed: </br>1/<input type="number" id="time_speed" value="60" size="14"></br></br>
+
+			DEFAULTS:</br>
+			size:</br>		<input type="number" id="box_width" style="width: 5ch;" value="40">
+							<input type="number" id="box_height" style="width: 5ch;" value="40"></br>
+
+			offset:</br>	<input type="number" id="x_offset" style="width: 5ch;" value="320">
+							<input type="number" id="y_offset" style="width: 5ch;" value="180"></br></br>
+
+			scale:</br>		<input type="number" id="scale_x_offset" style="width: 5ch;" value="1">
+							<input type="number" id="scale_y_offset" style="width: 5ch;" value="1"></br></br>			
+
+			angle:</br>	<input type="number" id="angle_offset" style="width: 5ch;" value="0"></br></br>
+
+						<button onclick="save_project(true)">save</button>
+						<input type="file" accept="application/json" id="load"></input> 
+						<label for="load">load</label>
+					</br></br> 
+			<button onclick="export_vircon()">export</button>
+
+		</div>
+
+	</div>
+		
+	<button onclick="show_help();" style="position:absolute; right:10px; top:60px" id="show_help">?</button>
+	<button onclick="toggle_project_panel()" style="position:absolute; right:10px;" id="show_project_panel">≡</button>
+
+
+
+
+		<div class="editor">
+			<canvas id="view" width="640" height="320" ></canvas>
+			<canvas id="timeline" width="640" height="160" ></canvas>
+		</div>
+
+		<div class="sidepanel">
+			<img src="logo.png" style="padding: 30px;"> 
+			
+			<div class="sidepanel_command">
+				time:&nbsp <input type="number" id="time_in" size="5" step="0.1"></br>
+				speed: <input type="number" id="speed_in" size="5" step="0.1"></br>
+				value: <input type="number" id="value_in" size="5" ></br></br>
+
+
+
+				<select id="ease_in_select" name="ease in">
+					<option value="NONE">NONE</option>
+					<option value="LINEAR">LINEAR</option>
+					<option value="SINE">SINE</option>
+					<option value="CUBIC">CUBIC</option>
+					<option value="QUINT">QUINT</option>
+					<option value="CIRC">CIRC</option>
+					<option value="BACK">BACK</option>
+				</select>
+
+				<select id="ease_out_select" name="ease out">
+					<option value="NONE">NONE</option>
+					<option value="LINEAR">LINEAR</option>
+					<option value="SINE">SINE</option>
+					<option value="CUBIC">CUBIC</option>
+					<option value="QUINT">QUINT</option>
+					<option value="CIRC">CIRC</option>
+					<option value="BACK">BACK</option>
+				</select>
+
+			</div>
+		</div>
+		
+
+	<div id="output" style="padding: 6px;"> </div>
+
+
+
+	<div id="instructions_panel" style="display: none;">
+		<div id="half_background" onclick="hide_all()"></div>
+		
+		<div class="manual">
+
+			<h1>EASE STUDIO!<sup>v1.0</sup></h1>
+
+			<p>Ease studio a front-end tool to make <b>concatenated animation paths</b> using <b>easelib</b> on Vircon32.</p>
+
+			Properties and exporting can be found in the
+				<button onclick="toggle_project_panel()"  id="show_project_panel">≡</button> menu. </br></br>
+			<h2>CONTROLS:</h2>
+			<p><b><kbd>A</kbd> key:</b> add keyframe.</p>
+			<img src="instruction/GIF/optimized/add_keyframe.gif" width="200" class="manual_image"> </br></br>
+			
+			<p><b>Right click:</b> remove keyframe.</p>
+			<img src="instruction/GIF/optimized/remove_keyframe.gif" width="200" class="manual_image"> </br></br>
+			
+			<p><b>Drag:</b> move timeline.</p>
+			<img src="instruction/GIF/optimized/move.gif" width="200" class="manual_image"> </br></br>
+			
+			<p><b> <kbd>shift</kbd> + <kbd>scroll</kbd>:</b> zoom in / zoom out. </p>
+			<img src="instruction/GIF/optimized/zoom.gif" width="200" class="manual_image"> </br></br>
+			
+			<p><b>scroll:</b> move time indicator.</p>
+			<img src="instruction/GIF/optimized/time.gif" width="200" class="manual_image"> </br></br>		
+			
+			<p><b>Click on top:</b> move time indicator.</p>
+			<img src="instruction/GIF/optimized/time2.gif" width="200" class="manual_image"> </br></br>
+			
+			<p><b><kbd>space</kbd>:</b> play / pause.</p>
+			<img src="instruction/GIF/optimized/play.gif" width="200" class="manual_image"> </br></br>
+			
+
+			
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+	<script src="main.js"></script>
+	<script src="easings.js" ></script>
+	<script src="scripts/save.js"></script>
+	<script src="scripts/timeline_selector.js"></script>
+	<script src="scripts/timeline.js"></script>
+	<script src="scripts/preview.js"></script>
+
+
+	<script src="scripts/export.js"></script>
+	
+
+</body>

@@ -248,7 +248,7 @@ void info(){
 
 			print_at( 5, -ease(info_offset, QUINT, BACK)*info_size+440, "Using NONE on both parts will result in an abrupt return.");
 
-			textfont_print_from_left(&FontRetro_Gaming_11, 5, -ease(info_offset, QUINT, BACK)*info_size+495,"FORMULA: (ease(t, NONE, NONE), 100);");
+			textfont_print_from_left(&FontRetro_Gaming_11, 5, -ease(info_offset, QUINT, BACK)*info_size+495,"FORMULA: (ease(t-1, NONE, NONE), 100);");
 			break;
 
 

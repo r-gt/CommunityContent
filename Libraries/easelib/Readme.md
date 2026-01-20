@@ -7,7 +7,7 @@ Easelib is a single file header designed for Vircon32, includes only one functio
 
 
 ### What can it do?
-At the moment (Version 1.0) Easelib can:
+At the moment (Version 1.2) Easelib can:
 * Produce ease-in effect
 * Produce ease-out effect
 * Produce a combined effect (ease-in + ease-out)

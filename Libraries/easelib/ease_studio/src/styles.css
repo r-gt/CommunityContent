@@ -1,0 +1,204 @@
+
+html *{
+	font-size: 18px;
+	font-family: monospace !important;
+
+}
+
+h1{
+	font-size: 32px;
+	font-weight: bold;
+	color: #f9e2af;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+body{
+	background-color: #181825;
+	color:#cdd6f4;
+	margin: 19;
+	padding: 10;
+	font-family: Ubuntu-mono;
+}
+
+
+b{
+color: #89dceb
+
+}
+
+sup{
+	color: #45475a;
+	
+}
+
+
+
+
+kbd {
+	background: #1e1e2e;
+	border: 4px solid #585b70;
+
+	padding: 1px 3px;
+	font-family: monospace;
+	font-size: 0.9em;
+}
+
+
+
+#view{
+
+	border: 4px #f38ba8 solid;
+	image-rendering: pixelated;
+	
+}
+#timeline{
+
+	border: 4px #f38ba8 solid; 
+	image-rendering: crisp-edges;
+}
+
+
+
+.editor{
+	width: 640px; /* O un ancho fijo, ej: 300px */
+	image-rendering:crisp-edges;
+	
+	float:left;
+}
+
+.sidepanel{
+
+    width: fit-content;
+	height: fit-content;
+    padding: 6px;
+	float:left;
+	margin: 14px;
+	margin-top: 0px;
+	border: 4px #f38ba8 solid;
+}
+
+.sidepanel_command{
+	margin-top: 164px;
+	padding-bottom:5px;
+	display:block;
+	width:max-content;
+margin-left: auto; margin-right: auto;
+}
+
+
+input[type="number"], input[type="text"]{
+    width: 6ch;
+    border: none;
+    margin-bottom: 7px;
+    color: #cdd6f4;
+    background: #313244FF;
+    box-shadow: 0px 5px 0px -1px #A6E3A1;
+	outline: none;
+} 
+
+
+#load{
+	display: none;
+}
+label[for="load"] {
+	padding:1px;
+	color:#11111b;
+	background-color: #f5c2e7;
+	border: 4px #f38ba8 solid;
+	cursor: pointer;
+
+}
+
+
+
+.project_box{
+
+	background-color: #1e1e2e;
+	border: 4px #f38ba8 solid;
+	padding:5px;
+	position:fixed;
+
+	left:50%;
+	top:50%;
+
+	transform: translate(-50%,-50%);
+}
+
+
+button{
+
+	background-color: #f5c2e7;
+	border: 4px #f38ba8 solid;
+	cursor: pointer;
+}
+
+#output{
+	position: fixed;
+	left:50%;
+	top:50%;
+
+	transform: translate(-50%,-50%);
+	border: 4px #94e2d5 solid;
+	background-color: #11111b;
+	display:none
+}
+
+select{
+	color:#cdd6f4;
+	border: 4px #94e2d5 solid;
+	background-color: #11111b;
+    cursor: pointer;
+
+}
+
+option{
+	color:#cdd6f4;
+	border: 4px #94e2d5 solid;
+	background-color: #11111b;
+}
+
+
+.manual{
+
+	color:#cdd6f4;
+	border: 4px #94e2d5 solid;
+	background-color: #11111b;
+	padding:10px;
+
+	position:fixed;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+
+	width: 400px;
+	height: 70vh;
+	
+  scrollbar-color:  #7f849c #11111b; 
+  /* Define el grosor (thin, auto, none) */
+  scrollbar-width:5px;
+	
+	overflow-y:scroll;
+}
+
+
+
+.manual_image{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	image-rendering: pixelated;
+	
+}
+
+#half_background{
+	position:fixed;
+	left:0px;
+	top:0px;
+	background-color: #11111bef;
+	width: 100%;
+	height: 100%
+}

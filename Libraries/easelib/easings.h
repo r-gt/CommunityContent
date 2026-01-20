@@ -6,7 +6,7 @@
  *      ██    ██ ██▄██╺╺
  *      ██▄▄▄ ██ ██▄█▀──
  *
- *  Version: 1.1
+ *  Version: 1.2
  *
  *  A simple yet powerful library designed to produce smooth movements.
  *
@@ -50,7 +50,7 @@ float ease(float time, int ease_in, int ease_out){
 	// these two are used to limit the easing to a normalized float (from 0 to 1)
 	// and apparently these help with optimizations too
 	if (time <= 0.0) return 0.0;
-	else if (time >= 1.0) return 1.0;
+	else if (time >= 1.0 || (ease_in==NONE && ease_out==NONE)) return 1.0;
 
 
 	if(time < 0.5 || ease_out==NONE){
@@ -122,8 +122,6 @@ float ease(float time, int ease_in, int ease_out){
 		}
 
 	}
-
-	if(ease_in==NONE && ease_out==NONE) return round(t);
 
 }
 
