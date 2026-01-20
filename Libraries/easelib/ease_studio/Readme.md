@@ -1,4 +1,4 @@
-![Ease Studio logo](src/logo.png)
+![Ease Studio logo](https://files.catbox.moe/aeus61.png)
 
 ---
 
@@ -22,8 +22,8 @@ What Ease Studio won't do:
 ---
 
 # Instalation
- You _don't_ install Ease Studio as a normal program, instead you download studio.html file, or you can also download the source code (in the src folder), both ways are valid.
-
+ You _don't_ install Ease Studio as a normal program, instead you download studio.html file, or you can also download the source code (in the src folder), both ways are valid.  
+ _you can also try it [here.](https://htmlpreview.github.io/?https://raw.githubusercontent.com/vircon32/CommunityContent/refs/heads/main/Libraries/easelib/ease_studio/studio.html)_
 
 
 # Usage
@@ -34,7 +34,7 @@ Start by making an animation with Ease Studio as you like.
 
 
 ### 2. EXPORT
-after finishing your animation, you can export and use it on your code.
+After finishing your animation, you can export and use it on your code.
 
 
 ### INTO THE CARTRIDGE
@@ -76,7 +76,7 @@ void main(void){
 ~~~
 
 
-_I know Ease Studio is not perfect, if you find issues or have suggestions, contact me! I'll me in the [Vircon 32 Discord server.](https://discord.gg/eEf3UKbJ9p)_
+_I know Ease Studio is not perfect, if you find issues or have suggestions, contact me! I'll be in the [Vircon 32 Discord server.](https://discord.gg/eEf3UKbJ9p)_
 
 ---
 
