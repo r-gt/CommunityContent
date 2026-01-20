@@ -75,6 +75,19 @@ void main(void){
 
 ~~~
 
+# Requirements
+Ease Studio doesn't ask for much, only a decent web browser:
+* Mozilla Firefox (tested, working)
+* Chromium/Chrome (tested, working)
+* WebKit/Safari (tested, mostly working)
+* QT Web engine (tested, working)
+* Netscape Navigator (tested, not working)
+
+Ease Studio does not support touchscreens, this doesn't mean it won't work on phones, if you connect mouse and keyboard to your phone, you can use it.
+
+Does timeline or preview look bad? try using 100% or 200% zoom, in between values might not look correctly.
+  
+<br/><br/>
 
 _I know Ease Studio is not perfect, if you find issues or have suggestions, contact me! I'll be in the [Vircon 32 Discord server.](https://discord.gg/eEf3UKbJ9p)_
 
