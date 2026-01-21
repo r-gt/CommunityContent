@@ -86,7 +86,7 @@ void effect_none(float t){
 
 
 void effect_dual_none(float t){
-	draw_region_at( 100 + ease(t, NONE, NONE)*300, 100 );
+	draw_region_at( 100 + ease(t-1, NONE, NONE)*300, 100 );
 
 }
 
