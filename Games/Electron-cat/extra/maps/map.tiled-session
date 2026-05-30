@@ -1,0 +1,208 @@
+{
+    "activeFile": "tiles.tsx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "map1.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "map2.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "map3.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "map4.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 325.33333333333326,
+                "y": 108.66666666666669
+            }
+        },
+        "map5.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "map6.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "map7.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "map8.tmx": {
+            "scale": 1.11921875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.86597794220296,
+                "y": 183.61021918190704
+            }
+        },
+        "map9.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "mapA.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "mapB.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "mapC.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "mapD.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "mapE.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "mapF.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.5,
+                "y": 183.5
+            }
+        },
+        "mapG.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.5,
+                "y": 183.5
+            }
+        },
+        "mapH.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.5,
+                "y": 183.5
+            }
+        },
+        "mapI.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.5,
+                "y": 183.5
+            }
+        },
+        "mapJ.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.5,
+                "y": 183.5
+            }
+        },
+        "mapK.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.5,
+                "y": 183.5
+            }
+        },
+        "map_demo.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320,
+                "y": 183.5
+            }
+        },
+        "tiles.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "/run/media/thiago/ED7F-D547/project/cat/extra/maps",
+    "last.imagePath": "/run/media/thiago/R1/Projects/cat/extra/maps",
+    "map.lastUsedExportFilter": "C 3D Array (whole project) (*.h)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileWidth": 8,
+    "openFiles": [
+        "tiles.tsx"
+    ],
+    "project": "map.tiled-project",
+    "recentFiles": [
+        "tiles.tsx",
+        "map_demo.tmx",
+        "mapE.tmx",
+        "mapD.tmx",
+        "mapC.tmx",
+        "mapB.tmx",
+        "mapA.tmx",
+        "map9.tmx",
+        "map8.tmx",
+        "map7.tmx",
+        "map6.tmx",
+        "map5.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}

@@ -1,0 +1,41 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<rom-definition version="1.0">
+
+<rom type="cartridge" title="Erwin Schrodinger's Electron Cat" version="1.0" />
+	<binary path= "./build/main.vbin" />
+
+
+	<textures>
+
+	<texture path="build/extra/entittites/player/player.vtex"/>
+	<texture path="build/extra/entittites/player/explosion.vtex"/>
+	<texture path="build/extra/maps/map.vtex"/>
+	<texture path="build/extra/menu/menu.vtex"/>
+	<texture path="build/extra/menu/death.vtex"/>
+	<texture path="build/extra/menu/nextlevel/box.vtex"/>
+
+	<texture path="build/extra/overlays/map1.vtex"/>
+	<texture path="build/extra/overlays/map2.vtex"/>
+	<texture path="build/extra/overlays/map3.vtex"/>
+
+	<texture path="build/extra/menu/finale.vtex"/>
+
+
+		</textures>
+
+
+	<sounds>
+
+	<sound path="build/extra/bg_remix1.vsnd"/>
+	<sound path="build/extra/bg_remix2.vsnd"/>
+
+	<sound path="build/extra/entittites/player/explosion.vsnd"/>
+	<sound path="build/extra/entittites/player/pickup.vsnd"/>
+	<sound path="build/extra/entittites/player/win.vsnd"/>
+
+
+
+	</sounds>
+
+</rom-definition>
