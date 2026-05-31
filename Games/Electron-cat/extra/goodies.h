@@ -137,10 +137,10 @@ void print_int(int x,int y, int num, int base){
 
 
 	for(int i=0; i<33; i++){
-		int char = str[i];
+		int character = str[i];
 
 		asm{
-			"mov R0, {char}"
+			"mov R0, {character}"
 			"out GPU_SelectedRegion, R0"
 
 			"mov R0, 10"
@@ -186,10 +186,10 @@ void print_float(int x,int y, float num){
 
 
 	for(int i=0; i<33; i++){
-		int char = str[i];
+		int character = str[i];
 
 		asm{
-			"mov R0, {char}"
+			"mov R0, {character}"
 			"out GPU_SelectedRegion, R0"
 
 			"mov R0, 10"

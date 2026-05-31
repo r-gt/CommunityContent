@@ -1,9 +1,9 @@
-![BOX ART](https://img.itch.zone/aW1nLzI3NDYzMzg3LnBuZw==/315x250%23c/rR%2B9tO.png)
+![BOX ART](images/boxart.png)
 
 # Erwin Schrödinger's Electron cat
 Be the Electron-cat, with the power of quantum tunneling. Finish all tests and claim that Nobel!
 
-
+![SCREENSHOT](images/gameplay.png)
 
 <br>
 
